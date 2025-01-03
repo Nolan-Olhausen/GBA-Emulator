@@ -48,55 +48,61 @@ Below is the current status of test ROMs.
 | **nes.gba**        | ❌ Fail  | NES test. Have not looked into or attempted this yet.    | 
 | **suite.gba**        | ❌ Fail  | General GBA test suite. Due to same video mode issue causing freeze, it is frozen on main menu and can not navigate through test menus.    | 
 
+Most of the above tests can be found at https://github.com/jsmolka/gba-tests
+
+armwrestler found at https://github.com/destoer/armwrestler-gba-fixed
+
+sbb_reg and brin_demo described in https://www.coranac.com/tonc/text/regbg.htm#sec-demo
+
 ---
 
 ## Passing Test ROMs  
 
 ### arm.gba  
 ARM instruction set test. Demonstrates accurate execution of ARM-based instructions.  
-![arm.gba passing](path/to/screenshot_arm.png)  
+<img src="https://github.com/Nolan-Olhausen/GBA-Emulator/blob/main/passingTests/armPass.png" width="356" height="335" />
 
 ---
 
 ### armwrestler.gba  
 Stress test for ARM instruction set accuracy.  
-![armwrestler.gba passing](path/to/screenshot_armwrestler.png)  
+<img src="https://github.com/Nolan-Olhausen/GBA-Emulator/blob/main/passingTests/armwrestlerPass.gif" width="356" height="335" />
 
 ---
 
 ### hello.gba  
 A simple test validating basic program functionality and display rendering.  
-![hello.gba passing](path/to/screenshot_hello.png)  
+<img src="https://github.com/Nolan-Olhausen/GBA-Emulator/blob/main/passingTests/helloPass.png" width="356" height="335" />  
 
 ---
 
 ### memory.gba  
 Validates memory read/write operations and address handling.  
-![memory.gba passing](path/to/screenshot_memory.png)  
+<img src="https://github.com/Nolan-Olhausen/GBA-Emulator/blob/main/passingTests/memoryPass.png" width="356" height="335" />  
 
 ---
 
 ### panda.gba  
 Renders a panda sprite on the screen, testing sprite rendering accuracy.  
-![panda.gba passing](path/to/screenshot_panda.png)  
+<img src="https://github.com/Nolan-Olhausen/GBA-Emulator/blob/main/passingTests/pandaPass.png" width="356" height="335" /> 
 
 ---
 
 ### shades.gba  
 Tests the emulator's ability to render gradients and shades correctly.  
-![shades.gba passing](path/to/screenshot_shades.png)  
+<img src="https://github.com/Nolan-Olhausen/GBA-Emulator/blob/main/passingTests/shadesPass.png" width="356" height="335" />
 
 ---
 
 ### stripes.gba  
 Displays striped patterns to test alignment and rendering precision.  
-![stripes.gba passing](path/to/screenshot_stripes.png)  
+<img src="https://github.com/Nolan-Olhausen/GBA-Emulator/blob/main/passingTests/stripesPass.png" width="356" height="335" />
 
 ---
 
 ### thumb.gba  
 Thumb instruction set test to validate 16-bit instruction handling.  
-![thumb.gba passing](path/to/screenshot_thumb.png)  
+<img src="https://github.com/Nolan-Olhausen/GBA-Emulator/blob/main/passingTests/thumbPass.png" width="356" height="335" />
 
 ---
 
