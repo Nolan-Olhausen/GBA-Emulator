@@ -4,6 +4,8 @@ A Game Boy Advance emulator written in C, designed to replicate the GBA's hardwa
 
 While still under development, the emulator successfully passes several key test ROMs, showcasing its growing capabilities.  
 
+Note: The provided code does not include some necessary items to build like the SDL2 library. This repository is only meant to showcase my work and not to build from. You will need the missing SDL2 library and set it up and build with CMake.
+
 ---
 
 ## Table of Contents  
