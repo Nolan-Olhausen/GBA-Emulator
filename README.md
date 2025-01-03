@@ -1,6 +1,6 @@
 # GBA-Emulator (WIP)
 
-A Game Boy Advance emulator written in C, designed to replicate the GBA's hardware and provide an accurate emulation experience. This emulator implements the ARM7TDMI CPU (supporting ARM and Thumb instruction sets), memory management, and PPU graphics modes (0–4).  
+A Game Boy Advance emulator written in C, designed to replicate the GBA's hardware and provide an accurate emulation experience. This emulator implements the ARM7TDMI CPU (supporting ARM and Thumb instruction sets), memory management, and PPU graphics modes (0–4) using the SDL2 library for graphics and button input.  
 
 While still under development, the emulator successfully passes several key test ROMs, showcasing its growing capabilities.  
 
